@@ -1,0 +1,108 @@
+html, body{
+   margin:0px !important;
+   padding: 0px !important;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin: none;
+    align-items: center
+}
+
+.conteudo_largura{
+    width: 1000px;
+}
+
+.logo{
+    width: 15%;
+    float: left
+}
+
+.img_logo{
+    width: 100px
+}
+
+.menu{
+    width: 85%;
+    float: right
+}
+
+.textobranco{color: white}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  color: white;
+  text-decoration:none
+}
+
+li a:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+
+.fonte_menu{
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text_red_color{
+    color: red;
+}
+
+.banner_principal{
+    background: url("/static/img/pulsar-831502910.jpg");
+    width: 100%;
+    padding-top: 70px;
+    height: 180px;
+}
+
+.titulo_h1{
+    margin:0;
+    margin-left: 10%;
+    color: white;
+    font-family: Verdana;
+    font-size: 60px
+}
+
+.conteudo_blog{
+    width: 1000px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.formulario_cadastro{
+    width: 1000px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.link_navegacao{
+    font-family: Verdana;
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.titulo_do_site{
+    font-family: 'Kufam', cursive, 'Roboto', Tahoma,Arial,Verdana;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.subtitulo{
+    font-family: 'Kufam', cursive, 'Roboto', Tahoma,Arial,Verdana;
+    font-size: 25px;
+}
